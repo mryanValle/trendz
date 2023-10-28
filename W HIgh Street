@@ -1,0 +1,311 @@
+{
+  "xAxis": {
+    "axisLabel": {
+      "formatter": "{value}:00"
+    },
+    "position": "bottom",
+    "type": "category",
+    "name": "Date",
+    "nameLocation": "middle",
+    "nameGap": 30,
+    "nameTextStyle": {
+      "fontWeight": "900",
+      "fontFamily": "Helvetica, Arial, sans-serif",
+      "fontSize": 12
+    }
+  },
+  "yAxis": [
+    {
+      "type": "value",
+      "name": "humidity, (%)",
+      "nameLocation": "middle",
+      "nameGap": 24,
+      "nameTextStyle": {
+        "fontWeight": "900",
+        "fontFamily": "Helvetica, Arial, sans-serif",
+        "fontSize": 12
+      },
+      "axisLabel": {
+        "showMaxLabel": false
+      },
+      "min": 0,
+      "max": 69.92,
+      "offset": 0,
+      "position": "left"
+    }
+  ],
+  "series": [
+    {
+      "name": "ESN 13931",
+      "data": [
+        [
+          0,
+          "68.945"
+        ],
+        [
+          1,
+          "69.1"
+        ]
+      ],
+      "type": "line",
+      "showSymbol": false,
+      "symbolSize": 0,
+      "label": {
+        "show": false,
+        "position": "top",
+        "color": "#555563",
+        "fontSize": 12
+      },
+      "step": false,
+      "smooth": true,
+      "lineStyle": {
+        "type": "solid"
+      },
+      "markArea": {
+        "itemStyle": {
+          "color": "rgb(168, 223, 142, 0.1)"
+        },
+        "data": [
+          [
+            {
+              "name": "Day Office hours",
+              "xAxis": 7
+            },
+            {
+              "xAxis": 17
+            }
+          ],
+          [
+            {
+              "name": "Evening Shift",
+              "xAxis": 22
+            },
+            {
+              "xAxis": 24
+            }
+          ],
+          [
+            {
+              "name": "Evening Shift",
+              "xAxis": 0
+            },
+            {
+              "xAxis": 5
+            }
+          ]
+        ]
+      },
+      "markLine": {
+        "silent": true,
+        "lineStyle": {
+          "color": "#952323"
+        },
+        "data": [
+          {
+            "yAxis": 90
+          },
+          {
+            "yAxis": 70
+          }
+        ]
+      }
+    },
+    {
+      "name": "ESN 13923",
+      "data": [
+        [
+          0,
+          "69.0875"
+        ],
+        [
+          1,
+          null
+        ]
+      ],
+      "type": "line",
+      "showSymbol": false,
+      "symbolSize": 0,
+      "label": {
+        "show": false,
+        "position": "top",
+        "color": "#555563",
+        "fontSize": 12
+      },
+      "step": false,
+      "smooth": true,
+      "lineStyle": {
+        "type": "solid"
+      }
+    },
+    {
+      "name": "ESN 13930",
+      "data": [
+        [
+          0,
+          "69.14"
+        ],
+        [
+          1,
+          "69.31"
+        ]
+      ],
+      "type": "line",
+      "showSymbol": false,
+      "symbolSize": 0,
+      "label": {
+        "show": false,
+        "position": "top",
+        "color": "#555563",
+        "fontSize": 12
+      },
+      "step": false,
+      "smooth": true,
+      "lineStyle": {
+        "type": "solid"
+      }
+    },
+    {
+      "name": "ESN 13922",
+      "data": [
+        [
+          0,
+          "69.33666666666666"
+        ],
+        [
+          1,
+          "69.5"
+        ]
+      ],
+      "type": "line",
+      "showSymbol": false,
+      "symbolSize": 0,
+      "label": {
+        "show": false,
+        "position": "top",
+        "color": "#555563",
+        "fontSize": 12
+      },
+      "step": false,
+      "smooth": true,
+      "lineStyle": {
+        "type": "solid"
+      }
+    },
+    {
+      "name": "ESN 13920",
+      "data": [
+        [
+          0,
+          "69.83"
+        ],
+        [
+          1,
+          "69.92"
+        ]
+      ],
+      "type": "line",
+      "showSymbol": false,
+      "symbolSize": 0,
+      "label": {
+        "show": false,
+        "position": "top",
+        "color": "#555563",
+        "fontSize": 12
+      },
+      "step": false,
+      "smooth": true,
+      "lineStyle": {
+        "type": "solid"
+      }
+    }
+  ],
+  "grid": {
+    "top": "25px",
+    "left": "30px",
+    "right": "0px",
+    "bottom": "30px",
+    "containLabel": true,
+    "height": "auto"
+  },
+  "color": [
+    "#008FFB",
+    "#00E396",
+    "#FEB019",
+    "#FF4560",
+    "#775DD0",
+    "#3F51B5",
+    "#4CAF50",
+    "#D4526E",
+    "#546E7A",
+    "#81D4FA"
+  ],
+  "backgroundColor": "transparent",
+  "title": {
+    "show": true,
+    "left": "center",
+    "textStyle": {
+      "fontSize": 14,
+      "color": "#555563"
+    },
+    "top": "20"
+  },
+  "textStyle": {
+    "color": "#555563"
+  },
+  "dataZoom": {
+    "start": 0,
+    "type": "inside",
+    "moveOnMouseMove": true,
+    "filterMode": "none"
+  },
+  "tooltip": {},
+  "legend": {
+    "show": true,
+    "textStyle": {
+      "color": "#555563",
+      "fontWeight": "400",
+      "fontFamily": "Helvetica, Arial, sans-serif",
+      "fontSize": 12
+    },
+    "orient": "horizontal",
+    "left": 0,
+    "top": 0,
+    "width": "100%",
+    "height": "50",
+    "type": "scroll",
+    "padding": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "backgroundColor": "transparent"
+  },
+  "toolbox": {
+    "show": false,
+    "right": "26px",
+    "feature": {
+      "dataZoom": {
+        "show": true,
+        "yAxisIndex": "none"
+      },
+      "dataView": {
+        "show": false,
+        "readOnly": false
+      },
+      "magicType": {
+        "show": false,
+        "type": [
+          "line",
+          "bar"
+        ]
+      },
+      "restore": {
+        "show": false
+      },
+      "saveAsImage": {
+        "show": false
+      }
+    }
+  }
+}
